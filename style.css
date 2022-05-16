@@ -111,3 +111,42 @@ a:hover {
 a:active {
     border: 12px solid black;
 }
+
+@media screen and (max-width:1200px) {
+    .container {
+        height: 80vw;
+    } 
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 95vw;
+        height: 70vh;
+    } 
+    .list__item__text {
+        
+        margin-top: -5px;
+    }
+}
+@media screen and (max-width:425px) {
+    .list__link {
+        align-self: center;
+        top: 82%
+    }
+    img {
+        height: 80%;
+    }
+    .list__item__text {
+        margin-top: 50px;
+    }
+    .container {
+        width: 95vw;
+        height: 65vh;
+    } 
+    .list__item {
+        height: 100%;
+    }
+    .list {
+        height: 100%;
+    }
+}
